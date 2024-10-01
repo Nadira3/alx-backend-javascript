@@ -40,7 +40,7 @@ Example structure:
 └── /0x02-ES6_async
     ├── 0-async.js
     └── ...
-
+```
 Each directory represents a project, and files inside correspond to individual tasks and exercises.
 
 Installation
@@ -50,18 +50,19 @@ To run the code locally on your machine, follow these steps:
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/alx-backend-javascript.git
+```
 
 
 2. Navigate to the project directory:
 ```bash
 cd alx-backend-javascript
+```
 
 
 3. Install dependencies (if any):
 ```bash
 npm install
-
-
+```
 
 Usage
 
@@ -86,16 +87,19 @@ Steps for contributing:
 2. Create a new branch:
 ```bash
 git checkout -b feature-branch
+```
 
 
 3. Make your changes and commit them:
 ```bash
 git commit -m "Description of changes"
+```
 
 
 4. Push to the branch:
 ```bash
 git push origin feature-branch
+```
 
 
 5. Open a pull request on GitHub.
