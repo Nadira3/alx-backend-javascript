@@ -1,5 +1,3 @@
-Here's a sample README file for your 0x00-ES6_basic directory, following the ALX project structure and guidelines:
-
 # 0x00. ES6 Basics
 
 ## Table of Contents
