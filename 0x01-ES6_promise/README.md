@@ -1,62 +1,41 @@
-# ALX 0x01-ES6_promise
+# Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-This project is part of the ALX program and focuses on the implementation and understanding of ES6 Promises in JavaScript. The goal is to learn how to work with promises, handle asynchronous operations, and develop a better understanding of the Promise API.
-
-## Project Overview
-
-The **0x01-ES6_promise** project includes several tasks designed to reinforce the concepts related to ES6 promises. Each task builds on the previous one, providing practical experience with promise creation, resolution, rejection, and chaining.
-
-## Features
-
-- Creation of simple and complex promises
-- Handling promise resolution and rejection
-- Chaining multiple promises
-- Understanding the Promise API
-- Error handling with promises
-
-## Installation
-
-To get started with this project, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/0x01-ES6_promise.git
-   ```
-
-2. Navigate to the project directory:
+- Promises (how, why, and what)
+- How to use the then, resolve, catch methods
+- How to use every method of the Promise object
+- Throw / Try
+- The await operator
+- How to use an async function
+## Requirements
+All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
+Allowed editors: vi, vim, emacs, Visual Studio Code
+All your files should end with a new line
+A README.md file, at the root of the folder of the project, is mandatory
+Your code should use the js extension
+Your code will be tested using Jest and the command npm run test
+Your code will be verified against lint using ESLint
+All of your functions must be exported
+## Setup
+Install NodeJS 12.11.x
+(in your home directory):
 ```
-cd 0x01-ES6_promise
+curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs -y
+$ nodejs -v
+v12.11.1
+$ npm -v
+6.11.3
 ```
+Install Jest, Babel, and ESLint
+in your project directory, install Jest, Babel and ESList by using the supplied package.json and run npm install.
 
-3. Open the project in your preferred code editor.
+### Configuration Files
+Add the files below to your project directory
 
-
-
-## Usage
-
-To run the tests and see the promises in action, you can use Node.js:
-
-1. Ensure you have Node.js installed on your machine. You can download it from nodejs.org.
-
-
-2. Run the main JavaScript file:
-```
-node yourfile.js
-```
-
-
-## Task List
-
-1. Task 0: Create a simple promise that resolves with a value.
-
-
-2. Task 1: Create a promise that rejects with an error.
-
-
-3. Task 2: Chain multiple promises together.
-
-
-4. Task 3: Use Promise.all to handle multiple promises.
-
-
-5. Task 4: Implement error handling for promises.
+package.json
+babel.config.js
+utils.js
+.eslintrc.js
+Don’t forget to run $ npm install when you have the package.json
