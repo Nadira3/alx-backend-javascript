@@ -1,17 +1,12 @@
-function handleResponseFromAPI(promise) {
+export default function handleResponseFromAPI(promise) {
   return promise
     .then(() => ({
       status: 200,
-      body: 'Success',
+      body: 'success',
     }))
-    .catch(() => {
-      // Reject with a new Error when the promise is rejected
-      throw new Error('API request failed');
-    })
+    .catch(() => new Error())
     .finally(() => {
-      // This block runs no matter if the promise resolves or rejects
+      // This will always run regardless of success or failure
       console.log('Got a response from the API');
     });
 }
-
-export default handleResponseFromAPI;
