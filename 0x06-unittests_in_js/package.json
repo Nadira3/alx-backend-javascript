@@ -1,0 +1,13 @@
+{
+  "name": "unittestjs",
+  "version": "1.0.0",
+  "description": "Unit testing examples",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.2.0",
+    "sinon": "^15.2.0"
+  }
+}
