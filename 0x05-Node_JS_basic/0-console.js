@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 // displayMessage function
-function displayMessage (message) {
+function displayMessage(message) {
   console.log(message);
 }
 
